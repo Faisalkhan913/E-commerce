@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product List</title>
+    <link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+    <div id="logout"><button onclick="logout()">Logout</button></div>
+    <div class="search-container">
+        <input type="text" id="search" placeholder="Search products...">
+        <button onclick="searchProducts()">Search</button>
+    </div>
+    <div id="categories"></div>
+    <div class="product-container" id="product-container"></div>
+    <div class="pagination" id="pagination"></div>
+    <script src="scripts/main.js"></script>
+    <script src="scripts/api.js"></script>
+</body>
+</html>

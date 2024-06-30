@@ -1,0 +1,8 @@
+/* Add your CSS styles for product detail page here */
+#product-detail {
+    margin: 20px;
+}
+
+#product-detail img {
+    max-width: 100%;
+}
